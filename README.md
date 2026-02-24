@@ -169,4 +169,50 @@ Confusion Matrix
 Logistic Regression Decision Boundary
 
 
+Practicle -4 date = 24 feb. 2026
 
+📂 Project Description
+
+In this project, I built a simple Neural Network using TensorFlow (Keras API) to solve the XOR problem.
+
+The XOR problem is not linearly separable, so it requires hidden layers to learn nonlinear decision boundaries.
+
+
+🧠 XOR Neural Network – TensorFlow Practice
+📌 What I Learned
+
+Built a Neural Network using TensorFlow (Keras)
+
+Solved XOR classification problem
+
+Used hidden layers (ReLU activation)
+
+Applied Binary Crossentropy loss
+
+Evaluated model using Accuracy & MSE
+
+Plotted training loss graph
+
+🛠 Tech Stack
+
+Python
+
+TensorFlow / Keras
+
+Matplotlib
+
+⚙️ Model Architecture
+
+Input: 2 features
+
+Hidden Layers: 100 → 30 neurons (ReLU)
+
+Output: 1 neuron (Sigmoid)
+
+📊 Training
+
+Optimizer: Adam
+
+Loss: Binary Crossentropy
+
+Epochs: 200
