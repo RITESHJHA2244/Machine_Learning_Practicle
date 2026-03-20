@@ -216,3 +216,133 @@ Optimizer: Adam
 Loss: Binary Crossentropy
 
 Epochs: 200
+
+
+Practicle=20_March_Practile_6
+
+🌍 Geopolitical State Prediction using Machine Learning
+📌 Project Overview
+
+This project aims to develop a machine learning-based classification model to predict the geopolitical relationship between two countries. Using multidimensional features, the model classifies relationships into categories such as:
+
+Strategic Competition
+
+Cold War
+
+Proxy War
+
+Direct War
+
+The system analyzes various geopolitical factors including military strength, nuclear capabilities, economic conditions, ideological differences, political stability, historical conflicts, and sentiment analysis derived from media and public discourse.
+
+🎯 Objectives
+
+Build a robust classification model for geopolitical state prediction
+
+Use multidimensional real-world features
+
+Implement a neural network for pattern recognition
+
+Evaluate model performance using proper validation techniques
+
+Optimize performance using hyperparameter tuning
+
+🧠 Technologies Used
+
+Python
+
+NumPy
+
+Pandas
+
+Scikit-learn
+
+TensorFlow / Keras
+
+Matplotlib
+
+📊 Dataset Features
+
+The model uses the following features:
+
+Military Power Ratio
+
+Troop Movement
+
+Nuclear Capability
+
+Nuclear Warheads
+
+GDP Ratio
+
+Sanctions Intensity
+
+Trade Dependency
+
+Ideology Distance
+
+Political Stability
+
+Historical Conflict
+
+Border Distance
+
+News Sentiment
+
+Nationalism Index
+
+Leader Aggression
+
+⚙️ Model Architecture
+
+The project uses a Neural Network (Deep Learning Model) with:
+
+Input Layer (based on feature size)
+
+Hidden Layer (10 neurons, ReLU)
+
+Hidden Layer (5 neurons, ReLU)
+
+Output Layer (Sigmoid / Softmax depending on classes)
+
+🚀 Workflow
+
+Data Collection & Preprocessing
+
+Train-Test Split
+
+Feature Scaling (Standardization)
+
+Model Training
+
+Evaluation (Accuracy, Confusion Matrix)
+
+Visualization (Loss & Accuracy Graphs)
+
+📈 Evaluation Metrics
+
+Accuracy
+
+Confusion Matrix
+
+Classification Report
+
+Train vs Validation Loss
+
+Train vs Validation Accuracy
+
+📊 Results
+
+The model demonstrates the ability to learn complex geopolitical patterns and provides predictions with measurable accuracy. Performance can be further improved using advanced tuning techniques.
+
+🔧 Future Improvements
+
+Use larger and real-world datasets
+
+Apply advanced models (Random Forest, XGBoost)
+
+Improve feature engineering
+
+Deploy using Flask or Streamlit
+
+Add real-time data integration
